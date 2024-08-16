@@ -1,0 +1,70 @@
+[[navbar]]
+  identifier = "guide"
+  name = "实用指南"
+  url = "/guide/"
+  weight = 1
+  [[navbar]]
+    identifier = "tools"
+    name = "实用工具"
+    url = "/guide/tools"
+    parent = "guide"
+    weight = 1
+  [[navbar]]
+    identifier = "linux"
+    name = "Linux"
+    url = "/guide/linux"
+    parent = "guide"
+    weight = 2
+  [[navbar]]
+    identifier = "git"
+    name = "git"
+    url = "/guide/git"
+    parent = "guide"
+    weight = 3
+  [[navbar]]
+    identifier = "vscode"
+    name = "VSCode"
+    url = "/guide/vscode"
+    parent = "guide"
+    weight = 4
+  [[navbar]]
+    identifier = "distributed"
+    name = "分布式"
+    url = "/guide/distributed"
+    parent = "guide"
+    weight = 5
+
+[[navbar]]
+  identifier = "programming"
+  name = "编程语言"
+  url = "/programming/"
+  weight = 2
+  [[navbar]]
+    identifier = "C++"
+    name = "C++"
+    url = "/programming/C++"
+    parent = "programming"
+    weight = 1
+  [[navbar]]
+    identifier = "golang"
+    name = "golang"
+    url = "/programming/golang"
+    parent = "programming"
+    weight = 2
+  [[navbar]]
+    identifier = "python"
+    name = "python"
+    url = "/programming/python"
+    parent = "programming"
+    weight = 3
+
+[[navbar]]
+  identifier = "essay"
+  name = "心情随笔"
+  url = "/essay/"
+  weight = 3
+[[navbar]]
+  identifier = "friend"
+  name = "友情链接"
+  url = "/friend/"
+  weight = 4
